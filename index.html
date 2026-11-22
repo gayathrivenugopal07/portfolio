@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jeeno SK · Portfolio</title>
+<meta name="description" content="Portfolio of Jeeno SK: cybersecurity student, projects, coding profiles and a daily learning calendar.">
+<meta name="theme-color" content="#F5F4F8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>.rise{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+
+<header>
+  <div class="progress" id="progress"></div>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#about">Gayathri V</a>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#profiles">Profiles</a>
+        <a href="#calendar">Learning Calendar</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu" aria-expanded="false"><i></i></button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ABOUT: replace the text below with your own -->
+  <section id="about" class="hero">
+    <h1 class="rise">Every system has a story.<br>I'm interested in what it doesn't tell you.
+</h1>
+    <p class="lead rise">I spend my time exploring the hidden mechanics of technology — tracing vulnerabilities, understanding systems, experimenting with AI, and turning curiosity into working projects.
+
+Cybersecurity is my playground. Automation is my experiment. Building is my habit..</p>
+    <p class="lead rise"><b>There's always more beneath the surface.</b></p>
+  </section>
+
+  <!-- SKILLS: edit the names inside the chips -->
+  <section id="skills">
+    <h2 class="rise">Skills</h2>
+    <p class="sub rise">Tools I work with and the things I am getting better at.</p>
+    <div class="skills rise">
+      <div><h3>Languages</h3><div class="chips"><span class="chip">Python</span><span class="chip">JavaScript</span></div></div>
+      <div><h3>Web</h3><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span></div></div>
+      <div><h3>Tools</h3><div class="chips"><span class="chip">Git</span><span class="chip">VS Code</span></div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS: edit js/projects.js and put each link in the "link" field -->
+  <section id="projects">
+    <h2 class="rise">Projects</h2>
+    <p class="sub rise">A few things I have built.</p>
+    <div id="projectList" class="rise"></div>
+  </section>
+
+  <!-- PROFILES: edit js/profiles.js to add your usernames, short stats and links -->
+  <section id="profiles">
+    <h2 class="rise">Profiles</h2>
+    <p class="sub rise">Where I practise coding and security challenges.</p>
+    <div id="profileList" class="profiles rise"></div>
+  </section>
+
+  <section id="calendar">
+    <h2 class="rise">Learning Calendar</h2>
+    <p class="sub rise">Every box is a day. The more I study, the darker it gets.</p>
+    <div class="stats rise" id="stats"></div>
+    <div class="filters rise" id="filters" role="group" aria-label="Filter by topic"></div>
+    <div class="cal rise">
+      <div class="inner">
+        <div class="months" id="months"></div>
+        <div class="grid" id="grid"></div>
+      </div>
+      <div class="legend">Less
+        <i style="background:var(--l0)"></i><i style="background:var(--l1)"></i><i style="background:var(--l2)"></i><i style="background:var(--l3)"></i><i style="background:var(--l4)"></i>
+        More</div>
+    </div>
+    
+  </section>
+
+  <!-- CONTACT: replace each href -->
+  <section id="contact">
+    <h2 class="rise">Contact</h2>
+    <p class="sub rise">Want to work together or just say hello? Reach out.</p>
+    <div class="rows rise">
+      <a href="mailto:gayathrivenugopal74@gmail.com">Email <span>gayathrivenugopal74@gmail.com</span></a>
+      <a href="https://github.com/gayathrivenugopal07" target="_blank" rel="noopener">GitHub <span>github.com/gayathrivenugopal07</span></a>
+      <a href="https://linkedin.com/in/gayathriivenugopal" target="_blank" rel="noopener">LinkedIn <span>linkedin.com/in/gayathriivenugopal
+
+
+
+</span></a>
+
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> gayathhri</div></footer>
+<div id="tip"></div>
+
+<script src="js/study-log.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/profiles.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
